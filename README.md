@@ -14,6 +14,8 @@
 
 **Senior Software Engineer** &#12299;_working in New Product Development at Greenlight Financial Technology_
 <br/>
+**Cloud Solutions Architect** &#12299;_ex-Amazon Web Services and 6x AWS Certified including DevOps Pro & SA Pro_
+<br/>
 **Blogger & Content Creator** &#12299;_focusing on applied machine learning, software engineering, and cloud architecture_
 
 ----
