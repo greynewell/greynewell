@@ -1,4 +1,4 @@
-### Hi, I'm Grey! I prototype Machine Learning products and grow them to Hyperscale. 🌱🌳🚀
+### Hi, I'm Grey! I prototype products and grow them to Hyperscale. 🌱🌳🚀
 
 ----
 
@@ -8,11 +8,11 @@
 ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
 ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white)
 
-**Senior Software Engineer** &#12299;_working in New Product Development at Greenlight Financial Technology_
+**Senior Software Engineer** &#12299;_working in New Products at Greenlight Financial Technology_
 <br/>
-**Cloud Solutions Architect** &#12299;_ex-Amazon Web Services and 6x AWS Certified including DevOps Pro & SA Pro_
+**Cloud Solutions Architect** &#12299;_ex-AWS and 6x AWS Certified including DevOps Pro & SA Pro_
 <br/>
-**Blogger & Content Creator** &#12299;_focusing on applied machine learning, software engineering, and cloud architecture_
+**Blogger & Content Creator** &#12299;_focusing on machine learning, software engineering, and cloud_
 
 ----
 
