@@ -1,4 +1,4 @@
-### I'm Grey Newell, Co-Founder and Chief Technical Officer (CTO) of [@wdym-ai](https://github.com/wdym-ai)
+### I'm Grey Newell, Co-Founder and Chief Technical Officer (CTO) of [@wdym-chat](https://github.com/wdym-chat)
 
 ----
 
@@ -14,4 +14,4 @@
 <br/>
 **Cloud Solutions Architect** &#12299;_ex-AWS and 6x AWS Certified including DevOps Pro & SA Pro_
 <br/>
-**wdym, inc.** &#12299;_is building smarter messaging with artificial intelligence._
+**wdym, inc.** &#12299;_is building smarter messaging._
