@@ -14,4 +14,4 @@
 <br/>
 **Cloud Solutions Architect** &#12299;_ex-AWS and 6x AWS Certified including DevOps Pro & SA Pro_
 <br/>
-**wdym, inc.** &#12299;_is building smarter messaging._
+**wdym, inc.** &#12299;_building smarter messaging._
