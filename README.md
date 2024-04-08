@@ -1,4 +1,4 @@
-### I'm Grey Newell, Co-Founder and Chief Technical Officer (CTO) of [@wdym-chat](https://github.com/wdym-chat)
+### I'm Grey Newell, Co-Founder and CTO of [@wdym-chat](https://github.com/wdym-chat)
 
 ----
 
@@ -10,8 +10,8 @@
 ![Expo](https://img.shields.io/badge/expo-1C1E24?style=for-the-badge&logo=expo&logoColor=#D04A37)
 ![ChatGPT](https://img.shields.io/badge/chatGPT-74aa9c?style=for-the-badge&logo=openai&logoColor=white)
 
-**Experienced Software Engineer** &#12299;_over 10 years of experience including management and sales_
+**Experienced Engineer** &#12299;_over 10 years of experience including management and sales_
 <br/>
-**Cloud Solutions Architect** &#12299;_ex-AWS and 6x AWS Certified including DevOps Pro & SA Pro_
+**Cloud Architect** &#12299;_ex-AWS and 6x AWS Certified including DevOps Pro & SA Pro_
 <br/>
 **wdym, inc.** &#12299;_building smarter messaging._
