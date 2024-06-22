@@ -10,7 +10,7 @@
 ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white)
 
 ### About Me
-- Software Engineer creating digital souls with a special interest in generative audio.
+- Software Engineer creating AI souls with a special interest in generative audio.
 - Full-stack engineer. TypeScript maxi. Hobbyist DJ. Burner of cloud credits.
 - Formerly Amazon Web Services and Amazon Music (New Products).
 
