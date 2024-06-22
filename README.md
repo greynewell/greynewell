@@ -15,9 +15,9 @@
 - Formerly Amazon Web Services and Amazon Music (New Products).
 
 ### Contact Me
+- I'm always chilling in [OPEN SOULS Discord](https://discord.gg/opensouls)!
 - For business enquiries: [email](grey@opensouls.org) or [InMail](https://www.linkedin.com/in/greynewell/)
 - All else, contact me via [X/Twitter](https://x.com/GreyNewell)
-- I'm around in [OPEN SOULS Discord](https://discord.gg/opensouls), too!
 
  ### Read My Writing
  Read my digital journal at [greynewell.com](https://greynewell.com)
