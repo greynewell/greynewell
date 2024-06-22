@@ -8,7 +8,6 @@
 ![Electron.js](https://img.shields.io/badge/Electron-191970?style=for-the-badge&logo=Electron&logoColor=white)
 ![LaTeX](https://img.shields.io/badge/latex-%23008080.svg?style=for-the-badge&logo=latex&logoColor=white)
 ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white)
-![AWS CDK](https://img.shields.io/badge/CDK-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white)
 
 ### About Me
 - Software Engineer creating digital souls with a special interest in generative audio.
