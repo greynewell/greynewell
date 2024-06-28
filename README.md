@@ -14,10 +14,6 @@
 - Train + Run Models Locally in Desktop Apps with TensorFlow.js [[Blog]](https://greynewell.com/train-and-run-local-models-in-cross-platform-desktop-apps-with-tensorflowjs) [[Repo]](https://github.com/greynewell/tfjs-electron-app)
 
 
-![Transformers.js](https://img.shields.io/badge/Transformers.js-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
-- Generate + Analyze Lyrics Locally on Desktop with Transformers.js [[Repo]](https://github.com/greynewell/lyric-ai-desktop)
-
-
 ### About Me
 - Software Engineer creating AI souls with a special interest in generative audio.
 - Full-stack engineer. TypeScript maxi. Hobbyist DJ. Burner of cloud credits.
