@@ -1,6 +1,5 @@
 
 ## Grey Newell - Cognitive Systems Engineer (OPEN SOULS)
-### Core Skills
 ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
 ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
 ![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white)
@@ -9,9 +8,22 @@
 ![Electron.js](https://img.shields.io/badge/Electron-191970?style=for-the-badge&logo=Electron&logoColor=white)
 ![LaTeX](https://img.shields.io/badge/latex-%23008080.svg?style=for-the-badge&logo=latex&logoColor=white)
 ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white)
-### AI, Machine Learning & Deep Learning Projects
+
+## My Projects
+
+#### Building a Hand-Tracking Theremin with TensorFlow.js and Tone.js I
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 ![TensorFlow.js](https://img.shields.io/badge/TensorFlow.js-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white)
-- Train + Run Models Locally in Desktop Apps with TensorFlow.js [[Blog]](https://greynewell.com/train-and-run-local-models-in-cross-platform-desktop-apps-with-tensorflowjs) [[Repo]](https://github.com/greynewell/tfjs-electron-app)
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![Tone.js](https://img.shields.io/badge/tone-js-violet?style=for-the-badge)
+- Use JavaScript to build a basic digital musical instrument you play with your hands with TensorFlow.js.
+- Links: [[Demo Video]](https://www.youtube.com/watch?v=Bysc_NDmKHU), [[Blog Article]](https://greynewell.com/building-a-hand-tracking-theremin-with-tensorflowjs-and-tonejs-i), [[Source Code]](https://gist.github.com/greynewell/a4f5bbe9b072d79b94915385670633a8)
+#### Train + Run Models Locally in Desktop Apps with TensorFlow.js
+![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
+![TensorFlow.js](https://img.shields.io/badge/TensorFlow.js-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white)
+![Electron.js](https://img.shields.io/badge/Electron-191970?style=for-the-badge&logo=Electron&logoColor=white)
+- Use TypeScript to train a Neural Network and run inference locally on CPU + GPU with TensorFlow.js.
+- Links: [[Blog Article]](https://greynewell.com/train-and-run-local-models-in-cross-platform-desktop-apps-with-tensorflowjs), [[Source Code]](https://github.com/greynewell/tfjs-electron-app)
 
 
 ### About Me
