@@ -1,5 +1,5 @@
 
-## Grey Newell - Cognitive Systems Engineer (OPEN SOULS)
+## Grey Newell - Founder at Stealth AI Startup
 ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
 ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
@@ -27,8 +27,8 @@
 
 
 ### About Me
-- Software Engineer creating AI souls with a special interest in generative audio.
-- Full-stack engineer. TypeScript maxi. Hobbyist DJ. Burner of cloud credits.
+- Musician of 10+ years focused on the arts of production, DJing, and Lyricism.
+- Founder of a startup building Assistive AI tools to help Indie Musicians.
 - Formerly Amazon Web Services and Amazon Music (New Products).
 
 ### Contact Me
