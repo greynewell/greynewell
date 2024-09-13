@@ -34,7 +34,7 @@
 
 ### Contact Me
 - I'm always chilling in [my Discord community](https://discord.gg/gKf6CzMN)!
-- For business enquiries: [email](grey@opensouls.org) or [InMail](https://www.linkedin.com/in/greynewell/)
+- For business enquiries: [email](mailto:greyshipscode@gmail.com) or [InMail](https://www.linkedin.com/in/greynewell/)
 - All else, contact me via [X/Twitter](https://x.com/GreyNewell)
 
  ### Read My Writing
