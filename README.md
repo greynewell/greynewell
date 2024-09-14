@@ -18,21 +18,6 @@
 - Using `llama.cpp` and `JUCE` to run local LLMS in your favorite music-making software with a VST plugin.
 - Links: [[Demo Video]](https://x.com/greynewell/status/1834805775686156534), [[Documentation]](https://musegpt.org), [[Blog Post]](https://greynewell.com/musegpt), [[Source Code]](https://github.com/greynewell/musegpt)
 
-#### Building a Hand-Tracking Theremin with TensorFlow.js and Tone.js I
-![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
-![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
-![TensorFlow.js](https://img.shields.io/badge/TensorFlow.js-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white)
-![Tone.js](https://img.shields.io/badge/tone.js-violet?style=for-the-badge)
-- Use JavaScript to build a basic digital musical instrument you play with your hands with TensorFlow.js.
-- Links: [[Demo Video]](https://www.youtube.com/watch?v=Bysc_NDmKHU), [[Blog Article]](https://greynewell.com/building-a-hand-tracking-theremin-with-tensorflowjs-and-tonejs-i), [[Source Code]](https://gist.github.com/greynewell/a4f5bbe9b072d79b94915385670633a8)
-
-#### Train + Run Models Locally in Desktop Apps with TensorFlow.js
-![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
-![TensorFlow.js](https://img.shields.io/badge/TensorFlow.js-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white)
-![Electron.js](https://img.shields.io/badge/Electron-191970?style=for-the-badge&logo=Electron&logoColor=white)
-- Use TypeScript to train a Neural Network and run inference locally on CPU + GPU with TensorFlow.js.
-- Links: [[Blog Article]](https://greynewell.com/train-and-run-local-models-in-cross-platform-desktop-apps-with-tensorflowjs), [[Source Code]](https://github.com/greynewell/tfjs-electron-app)
-
 
 ### About Me
 - Musician of 10+ years focused on the arts of production, DJing, and Lyricism.
