@@ -25,7 +25,7 @@
 - Formerly Amazon Web Services and Amazon Music (New Products).
 
 ### Contact Me
-- I'm always chilling in [my Discord community](https://discord.gg/gKf6CzMN)!
+- I'm always chilling in [my Discord community](https://greyarea.ai)!
 - For business enquiries: [email](mailto:greyshipscode@gmail.com) or [InMail](https://www.linkedin.com/in/greynewell/)
 - All else, contact me via [X/Twitter](https://x.com/GreyNewell)
 
