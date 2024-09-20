@@ -14,7 +14,7 @@
 ![JUCE](https://img.shields.io/badge/-JUCE-8DC63F?style=for-the-badge&logo=juce&logoColor=white)
 ![llama.cpp](https://img.shields.io/badge/-llama.cpp-violet?style=for-the-badge&logoColor=white)
 ![CMake](https://img.shields.io/badge/CMake-%23008FBA.svg?style=for-the-badge&logo=cmake&logoColor=white)
-- Using `llama.cpp` and `JUCE` to run local LLMS in your favorite music-making software with a VST plugin.
+- Using `llama.cpp` and `JUCE` to run local AI models in your favorite music-making software.
 - Links: [[Demo Video]](https://x.com/greynewell/status/1834805775686156534), [[Documentation]](https://musegpt.org), [[Blog Post]](https://greynewell.com/musegpt), [[Source Code]](https://github.com/greynewell/musegpt)
 
 
