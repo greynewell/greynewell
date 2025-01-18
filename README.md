@@ -11,6 +11,3 @@
 ![CMake](https://img.shields.io/badge/CMake-%23008FBA.svg?style=for-the-badge&logo=cmake&logoColor=white)
 - Using `llama.cpp` and `JUCE` to run local AI models in your favorite music-making software.
 - Links: [[Documentation]](https://musegpt.org), [[Source Code]](https://github.com/greynewell/musegpt)
-
- ### Elsewhere on the Internet
- See my other content at [greynewell.com](https://greynewell.com)!
