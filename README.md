@@ -1,14 +1,9 @@
 # Grey Newell's Portfolio [![GitHub User's stars](https://img.shields.io/github/stars/greynewell)](https://github.com/greynewell)
 
-[![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=aws&logoColor=white)](https://greynewell.com)
-[![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=fff&style=for-the-badge)](#)
-[![AI/ML](https://img.shields.io/badge/AI/ML-FF6B6B?style=for-the-badge&logo=openai&logoColor=white)](#)
-[![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white)](#)
-[![JUCE](https://img.shields.io/badge/-JUCE-8DC63F?style=for-the-badge&logo=juce&logoColor=white)](#)
-[![llama.cpp](https://img.shields.io/badge/-llama.cpp-violet?style=for-the-badge&logoColor=white)](#)
-[![NodeJS](https://img.shields.io/badge/Node.js-6DA55F?logo=node.js&logoColor=white&style=for-the-badge)](#)
-[![Astro](https://img.shields.io/badge/Astro-FF5D01?style=for-the-badge&logo=astro&logoColor=white)](#)
-[![Schema.org](https://img.shields.io/badge/Schema.org-FF6B6B?style=for-the-badge&logo=schema&logoColor=white)](#)
+[![ORCID](https://img.shields.io/badge/ORCID-0009--0001--0714--3800-A6CE39?style=flat&logo=orcid&logoColor=white)](https://orcid.org/0009-0001-0714-3800)
+[![AWS Machine Learning](https://img.shields.io/badge/AWS%20Certified-Machine%20Learning-FF9900?style=flat&logo=amazonaws&logoColor=white)](https://www.credly.com/badges/491513f9-7d02-4ef3-96c3-a3cfdcdf5d9b)
+[![npm Package Author](https://img.shields.io/badge/npm-greynewell-CB3837?style=flat&logo=npm&logoColor=white)](https://www.npmjs.com/~greynewell)
+[![KVR Audio Developer](https://img.shields.io/badge/KVR%20Audio-Developer-FF6B6B?style=flat&logoColor=white)](https://www.kvraudio.com/developer/greynewell)
 
 ## Projects
 
