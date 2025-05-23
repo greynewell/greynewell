@@ -39,16 +39,20 @@
 - **DevOps Engineer Professional** - CI/CD and automation expertise
 
 ### 🎯 AWS Specialty Certifications
-- **Security** - Cloud security and compliance
-- **Advanced Networking** - Complex network architectures
 - **Machine Learning** - AI/ML solutions and services
-- **Database** - Database design and optimization
-- **Data Analytics** - Big data and analytics solutions
+- **Advanced Networking** - Complex network architectures
+- **Security** - Cloud security and compliance
 
 ### ⭐ AWS Associate Certifications
+- **Machine Learning Engineer** - developing, deploying, maintaining, and monitoring ML solutions
+- **Data Engineer** - use AWS services to implement data pipelines
 - **Solutions Architect** - Cloud architecture fundamentals
 - **Developer** - Cloud application development
 - **SysOps Administrator** - Cloud operations and management
+
+### 🏅 AWS Foundational Certifications
+- **AI Practitioner** - AI, ML, and generative AI concepts
+- **Cloud Practitioner** - Fundamental understanding of cloud
 
 [View all certifications on Credly](https://www.credly.com/users/greynewell)
 
