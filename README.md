@@ -3,11 +3,11 @@
 [![ORCID](https://img.shields.io/badge/ORCID-0009--0001--0714--3800-A6CE39?style=flat&logo=orcid&logoColor=white)](https://orcid.org/0009-0001-0714-3800)
 [![AWS Machine Learning](https://img.shields.io/badge/AWS%20Certified-Machine%20Learning-FF9900?style=flat&logo=amazonaws&logoColor=white)](https://www.credly.com/badges/491513f9-7d02-4ef3-96c3-a3cfdcdf5d9b)
 
-CS researcher at Georgia Tech studying how LLM-based agents use tools. Building [mcpbr](https://github.com/greynewell/mcpbr) to benchmark MCP servers. Previously AWS.
+CS researcher at Georgia Tech. Building [mcpbr](https://github.com/greynewell/mcpbr). Previously AWS.
 
 ## Projects
 
-**[mcpbr](https://github.com/greynewell/mcpbr)** — Benchmark runner for MCP servers. [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18627369.svg)](https://doi.org/10.5281/zenodo.18627369)
+**[mcpbr](https://github.com/greynewell/mcpbr)** — Benchmark runner for MCP servers. [DOI: 10.5281/zenodo.18627369](https://doi.org/10.5281/zenodo.18627369)
 
 **[musegpt](https://github.com/greynewell/musegpt)** — Local LLMs in your DAW via `llama.cpp` + `JUCE`.
 
