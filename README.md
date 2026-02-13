@@ -7,18 +7,27 @@ Software engineer and cloud architect building at the intersection of agentic AI
 
 ## What I'm Building
 
+**[mcpbr](https://github.com/greynewell/mcpbr)** — Benchmark runner for Model Context Protocol servers. Evaluates tool reliability in agentic workflows. Published on [PyPI](https://pypi.org/project/mcpbr/) and [npm](https://www.npmjs.com/package/mcpbr-cli).
+
 **[musegpt](https://github.com/greynewell/musegpt)** — Local LLMs inside your DAW. Integrates `llama.cpp` with `JUCE` for AI-powered music production.
 
-**[mcpbr](https://github.com/greynewell/mcpbr)** — Benchmark runner for Model Context Protocol servers. Evaluates tool reliability in agentic workflows.
+**[claude-chef](https://github.com/greynewell/claude-chef)** — Claude Code plugin that turns Claude into a culinary expert. Generates 29,000+ recipe pages at [claudechef.com](https://claudechef.com).
 
 **[supermodeltools/mcp](https://github.com/supermodeltools/mcp)** — MCP server that gives coding agents Code Graph analysis.
 
 **[pssg](https://github.com/greynewell/pssg)** — Fast, opinionated static site generator built in Go.
 
-**[claude-chef](https://github.com/greynewell/claude-chef)** — Claude Code plugin that turns Claude into a culinary expert.
-
 **[schema-driven-astro-starter](https://github.com/greynewell/schema-driven-astro-starter)** — Astro starter kit with schema-first development and Decap CMS.
+
+## Writing
+
+- [Why I Built mcpbr](https://greynewell.com/blog/why-i-built-mcpbr/) — Motivation behind building an open-source benchmark runner for MCP servers
+- [Implement event-driven invoice processing for resilient financial monitoring at scale](https://aws.amazon.com/blogs/architecture/implement-event-driven-invoice-processing-for-resilient-financial-monitoring-at-scale/) — AWS Architecture Blog
+- [5 tips for AWS Certification exams](https://aws.amazon.com/blogs/training-and-certification/5-tips-for-aws-certification-exams-from-aws-solutions-architects/) — AWS Training Blog
+- [Zero to hero: Career growth through AWS Certifications](https://aws.amazon.com/blogs/training-and-certification/zero-to-hero/) — AWS Training Blog
 
 ## Links
 
-[![Website](https://img.shields.io/badge/greynewell.com-000?style=flat&logo=safari&logoColor=white)](https://greynewell.com) [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/greynewell/) [![X](https://img.shields.io/badge/@greynewell-000?style=flat&logo=x&logoColor=white)](https://x.com/greynewell)
+[![Website](https://img.shields.io/badge/greynewell.com-000?style=flat&logo=safari&logoColor=white)](https://greynewell.com) [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/greynewell/) [![X](https://img.shields.io/badge/@greynewell-000?style=flat&logo=x&logoColor=white)](https://x.com/greynewell) [![Google Scholar](https://img.shields.io/badge/Google%20Scholar-4285F4?style=flat&logo=googlescholar&logoColor=white)](https://scholar.google.com/citations?hl=en&user=RoTkOCIAAAAJ)
+
+[mcpbr.org](https://mcpbr.org) | [claudechef.com](https://claudechef.com) | [musegpt.org](https://musegpt.org)
