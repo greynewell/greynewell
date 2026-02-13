@@ -7,7 +7,7 @@ Software engineer and cloud architect building at the intersection of agentic AI
 
 ## What I'm Building
 
-**[mcpbr](https://github.com/greynewell/mcpbr)** — Benchmark runner for Model Context Protocol servers. Evaluates tool reliability in agentic workflows. Published on [PyPI](https://pypi.org/project/mcpbr/) and [npm](https://www.npmjs.com/package/mcpbr-cli).
+**[mcpbr](https://github.com/greynewell/mcpbr)** — Benchmark runner for Model Context Protocol servers. Evaluates tool reliability in agentic workflows. Published on [PyPI](https://pypi.org/project/mcpbr/) and [npm](https://www.npmjs.com/package/mcpbr-cli). [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18627369.svg)](https://doi.org/10.5281/zenodo.18627369)
 
 **[musegpt](https://github.com/greynewell/musegpt)** — Local LLMs inside your DAW. Integrates `llama.cpp` with `JUCE` for AI-powered music production.
 
@@ -18,6 +18,10 @@ Software engineer and cloud architect building at the intersection of agentic AI
 **[pssg](https://github.com/greynewell/pssg)** — Fast, opinionated static site generator built in Go.
 
 **[schema-driven-astro-starter](https://github.com/greynewell/schema-driven-astro-starter)** — Astro starter kit with schema-first development and Decap CMS.
+
+## Research
+
+- [mcpbr: Benchmarking Model Context Protocol Servers on Software Engineering Tasks](https://doi.org/10.5281/zenodo.18627369) — Preprint, 2026
 
 ## Writing
 
