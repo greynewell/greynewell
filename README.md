@@ -1,7 +1,7 @@
-# Grey Newell \![GitHub followers](https://img.shields.io/github/followers/greynewell) [\![GitHub User's stars](https://img.shields.io/github/stars/greynewell)](https://github.com/greynewell)
+# Grey Newell's GitHub ![GitHub followers](https://img.shields.io/github/followers/greynewell) [![GitHub User's stars](https://img.shields.io/github/stars/greynewell)](https://github.com/greynewell)
 
-[\![ORCID](https://img.shields.io/badge/ORCID-0009--0001--0714--3800-A6CE39?style=flat&logo=orcid&logoColor=white)](https://orcid.org/0009-0001-0714-3800)
-[\![AWS Machine Learning](https://img.shields.io/badge/AWS%20Certified-Machine%20Learning-FF9900?style=flat&logo=amazonaws&logoColor=white)](https://www.credly.com/badges/491513f9-7d02-4ef3-96c3-a3cfdcdf5d9b)
+[![ORCID](https://img.shields.io/badge/ORCID-0009--0001--0714--3800-A6CE39?style=flat&logo=orcid&logoColor=white)](https://orcid.org/0009-0001-0714-3800)
+[![AWS Machine Learning](https://img.shields.io/badge/AWS%20Certified-Machine%20Learning-FF9900?style=flat&logo=amazonaws&logoColor=white)](https://www.credly.com/badges/491513f9-7d02-4ef3-96c3-a3cfdcdf5d9b)
 
 Software engineer and cloud architect building at the intersection of agentic AI and production systems. MS CS at Georgia Tech (ML focus). Previously AWS.
 
@@ -21,4 +21,4 @@ Software engineer and cloud architect building at the intersection of agentic AI
 
 ## Links
 
-[greynewell.com](https://greynewell.com) · [X/Twitter](https://x.com/greynewell)
+[![Website](https://img.shields.io/badge/greynewell.com-000?style=flat&logo=safari&logoColor=white)](https://greynewell.com) [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/greynewell/) [![X](https://img.shields.io/badge/@greynewell-000?style=flat&logo=x&logoColor=white)](https://x.com/greynewell)
