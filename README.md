@@ -21,10 +21,7 @@ Software engineer and cloud architect building at the intersection of agentic AI
 
 ## Writing
 
-- [Why I Built mcpbr](https://greynewell.com/blog/why-i-built-mcpbr/) — Motivation behind building an open-source benchmark runner for MCP servers
-- [Implement event-driven invoice processing for resilient financial monitoring at scale](https://aws.amazon.com/blogs/architecture/implement-event-driven-invoice-processing-for-resilient-financial-monitoring-at-scale/) — AWS Architecture Blog
-- [5 tips for AWS Certification exams](https://aws.amazon.com/blogs/training-and-certification/5-tips-for-aws-certification-exams-from-aws-solutions-architects/) — AWS Training Blog
-- [Zero to hero: Career growth through AWS Certifications](https://aws.amazon.com/blogs/training-and-certification/zero-to-hero/) — AWS Training Blog
+See my [blog](https://greynewell.com/blog/) for posts on MCP evaluation, agent benchmarking, and cloud architecture.
 
 ## Links
 
