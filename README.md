@@ -23,7 +23,7 @@ Software engineer and cloud architect building at the intersection of agentic AI
 
 - [Everyone Is Benchmarking MCP Servers Wrong](https://greynewell.com/blog/everyone-is-benchmarking-mcp-servers-wrong/) — Why existing MCP benchmarks measure the wrong thing
 - [Why I Built mcpbr](https://greynewell.com/blog/why-i-built-mcpbr/) — Results from a 500-task controlled SWE-bench experiment
-- [Event-driven invoice processing at scale](https://greynewell.com/blog/event-driven-invoice-processing/) — AWS Architecture Blog
+- [Event-driven invoice processing at scale](https://aws.amazon.com/blogs/architecture/implement-event-driven-invoice-processing-for-resilient-financial-monitoring-at-scale/) — AWS Architecture Blog
 
 ## Links
 
