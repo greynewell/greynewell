@@ -1,6 +1,6 @@
 # Grey Newell ![GitHub followers](https://img.shields.io/github/followers/greynewell) [![GitHub User's stars](https://img.shields.io/github/stars/greynewell)](https://github.com/greynewell)
 
-Researching agentic evaluations. Grad student at Georgia Tech. Creator of [mcpbr](https://github.com/greynewell/mcpbr) and [musegpt](https://github.com/greynewell/musegpt).
+Creator of [mcpbr](https://github.com/greynewell/mcpbr) and [musegpt](https://github.com/greynewell/musegpt). Researching agentic evaluations at Georgia Tech. 
 
 ## Projects
 [![MCP](https://badge.mcpx.dev?type=dev 'MCP Dev')](https://github.com/search?q=user%3Agreynewell+topic%3Amcp+fork%3Atrue&type=repositories)
