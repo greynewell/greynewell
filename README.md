@@ -5,20 +5,9 @@
 
 Researching agentic evaluations. Grad student at Georgia Tech. Maintainer of [mcpbr](https://github.com/greynewell/mcpbr).
 
-## Projects
-
-**[mcpbr](https://github.com/greynewell/mcpbr)** — Benchmark runner for MCP servers. [DOI: 10.5281/zenodo.18627369](https://doi.org/10.5281/zenodo.18627369)
-
-**[musegpt](https://github.com/greynewell/musegpt)** — Local LLMs in your DAW via `llama.cpp` + `JUCE`.
-
-**[claude-chef](https://github.com/greynewell/claude-chef)** — Claude Code plugin for recipe generation. [claudechef.com](https://claudechef.com)
-
-**[supermodeltools/mcp](https://github.com/supermodeltools/mcp)** — MCP server for Code Graph analysis.
-
 ## Writing
 
 - [Everyone Is Benchmarking MCP Servers Wrong](https://greynewell.com/blog/everyone-is-benchmarking-mcp-servers-wrong/)
 - [Why I Built mcpbr](https://greynewell.com/blog/why-i-built-mcpbr/)
-- [Event-driven invoice processing at scale](https://aws.amazon.com/blogs/architecture/implement-event-driven-invoice-processing-for-resilient-financial-monitoring-at-scale/) — AWS Architecture Blog
 
 [![Website](https://img.shields.io/badge/greynewell.com-000?style=flat&logo=safari&logoColor=white)](https://greynewell.com) [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/greynewell/) [![X](https://img.shields.io/badge/@greynewell-000?style=flat&logo=x&logoColor=white)](https://x.com/greynewell) [![Google Scholar](https://img.shields.io/badge/Google%20Scholar-4285F4?style=flat&logo=googlescholar&logoColor=white)](https://scholar.google.com/citations?hl=en&user=RoTkOCIAAAAJ)
