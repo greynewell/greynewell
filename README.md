@@ -1,9 +1,9 @@
 # Grey Newell ![GitHub followers](https://img.shields.io/github/followers/greynewell) [![GitHub User's stars](https://img.shields.io/github/stars/greynewell)](https://github.com/greynewell)
 
 [![ORCID](https://img.shields.io/badge/ORCID-0009--0001--0714--3800-A6CE39?style=flat&logo=orcid&logoColor=white)](https://orcid.org/0009-0001-0714-3800)
-[![AWS Machine Learning](https://img.shields.io/badge/AWS%20Certified-Machine%20Learning-FF9900?style=flat&logo=amazonaws&logoColor=white)](https://www.credly.com/badges/491513f9-7d02-4ef3-96c3-a3cfdcdf5d9b)
+[![MCP](https://badge.mcpx.dev?type=dev 'MCP Dev')](https://github.com/search?q=user%3Agreynewell+topic%3Amcp+fork%3Atrue&type=repositories)
 
-CS researcher at Georgia Tech. Building [mcpbr](https://github.com/greynewell/mcpbr). Previously AWS.
+Researching agentic evaluations. Grad student at Georgia Tech. Maintainer of [mcpbr](https://github.com/greynewell/mcpbr).
 
 ## Projects
 
