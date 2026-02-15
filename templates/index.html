@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="{{.Site.Language}}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{.Site.Name}}</title>
+  <meta name="description" content="{{.Site.Description}}">
+  <meta name="author" content="{{.Site.Author}}">
+  <link rel="canonical" href="{{.Site.BaseURL}}/">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Inter:wght@400;500;600&display=swap">
+  <style>
+    :root {
+      --color-primary: #5B7B5E;
+      --color-primary-light: #EEF3EE;
+      --color-text: #1a1a1a;
+      --color-text-muted: #6b7280;
+      --color-bg: #fafaf9;
+      --color-surface: #ffffff;
+      --color-border: #e5e5e5;
+      --radius: 8px;
+      --max-width: 720px;
+    }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: 'Inter', system-ui, -apple-system, sans-serif;
+      color: var(--color-text);
+      background: var(--color-bg);
+      line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
+    }
+    a { color: var(--color-primary); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    .container { max-width: var(--max-width); margin: 0 auto; padding: 0 1.5rem; }
+
+    /* Header */
+    .site-header {
+      padding: 1.5rem 0;
+      border-bottom: 1px solid var(--color-border);
+    }
+    .site-header nav {
+      display: flex;
+      gap: 1.5rem;
+      align-items: center;
+    }
+    .site-header nav a {
+      font-size: 0.875rem;
+      font-weight: 500;
+      color: var(--color-text-muted);
+    }
+    .site-header nav a:hover { color: var(--color-primary); text-decoration: none; }
+
+    /* Hero */
+    .hero {
+      padding: 4rem 0 2rem;
+    }
+    .hero h1 {
+      font-family: 'DM Serif Display', serif;
+      font-size: 2.5rem;
+      font-weight: 400;
+      line-height: 1.2;
+      margin-bottom: 1rem;
+    }
+    .hero .tagline {
+      font-size: 1.125rem;
+      color: var(--color-text-muted);
+      max-width: 540px;
+    }
+
+    /* Section */
+    section { padding: 2rem 0; }
+    section h2 {
+      font-family: 'DM Serif Display', serif;
+      font-size: 1.5rem;
+      font-weight: 400;
+      margin-bottom: 1.25rem;
+      padding-bottom: 0.5rem;
+      border-bottom: 1px solid var(--color-border);
+    }
+
+    /* Project cards */
+    .project-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: 1rem;
+    }
+    .project-card {
+      background: var(--color-surface);
+      border: 1px solid var(--color-border);
+      border-radius: var(--radius);
+      padding: 1.25rem;
+      transition: border-color 0.15s;
+    }
+    .project-card:hover { border-color: var(--color-primary); }
+    .project-card h3 {
+      font-family: 'Inter', sans-serif;
+      font-size: 1rem;
+      font-weight: 600;
+      margin-bottom: 0.375rem;
+    }
+    .project-card h3 a { color: var(--color-text); }
+    .project-card h3 a:hover { color: var(--color-primary); text-decoration: none; }
+    .project-card p {
+      font-size: 0.875rem;
+      color: var(--color-text-muted);
+      line-height: 1.5;
+    }
+    .project-card .pill {
+      display: inline-block;
+      font-size: 0.75rem;
+      font-weight: 500;
+      padding: 0.15rem 0.5rem;
+      border-radius: 9999px;
+      background: var(--color-primary-light);
+      color: var(--color-primary);
+      margin-top: 0.75rem;
+    }
+
+    /* Research */
+    .research-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.75rem;
+    }
+    .research-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.375rem;
+      font-size: 0.875rem;
+      font-weight: 500;
+      padding: 0.5rem 1rem;
+      border: 1px solid var(--color-border);
+      border-radius: var(--radius);
+      background: var(--color-surface);
+      color: var(--color-text);
+      transition: border-color 0.15s;
+    }
+    .research-link:hover { border-color: var(--color-primary); text-decoration: none; }
+
+    /* Blog */
+    .blog-list { list-style: none; }
+    .blog-list li {
+      padding: 0.75rem 0;
+      border-bottom: 1px solid var(--color-border);
+    }
+    .blog-list li:last-child { border-bottom: none; }
+    .blog-list a {
+      font-weight: 500;
+      font-size: 0.9375rem;
+    }
+
+    /* Footer */
+    .site-footer {
+      padding: 2rem 0;
+      margin-top: 2rem;
+      border-top: 1px solid var(--color-border);
+      text-align: center;
+    }
+    .footer-links {
+      display: flex;
+      justify-content: center;
+      gap: 1.5rem;
+      margin-bottom: 1rem;
+    }
+    .footer-links a {
+      font-size: 0.8125rem;
+      color: var(--color-text-muted);
+    }
+    .footer-links a:hover { color: var(--color-primary); }
+
+    @media (max-width: 640px) {
+      .hero h1 { font-size: 1.75rem; }
+      .project-grid { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header class="site-header">
+      <nav>
+        <a href="#projects">Projects</a>
+        <a href="#research">Research</a>
+        <a href="#blog">Blog</a>
+        <a href="{{.Site.RepoURL}}">GitHub</a>
+      </nav>
+    </header>
+
+    <main>
+      <div class="hero">
+        <h1>{{.Site.Name}}</h1>
+        <p class="tagline">{{.Site.Description}}</p>
+      </div>
+
+      <section id="projects">
+        <h2>Projects</h2>
+        <div class="project-grid">
+          <div class="project-card">
+            <h3><a href="https://mcpbr.org">mcpbr</a></h3>
+            <p>Benchmarking runtime for MCP servers. Reproducible evals using SWE-bench tasks with configurable tool providers.</p>
+            <span class="pill">MCP</span>
+          </div>
+          <div class="project-card">
+            <h3><a href="https://schemaflux.dev">SchemaFlux</a></h3>
+            <p>Data-driven static site compiler. Turns YAML config + markdown entities into fast, SEO-ready HTML sites.</p>
+            <span class="pill">Compilers</span>
+          </div>
+          <div class="project-card">
+            <h3><a href="https://musegpt.org">MuseGPT</a></h3>
+            <p>AI-powered music tools for composition, analysis, and creative exploration.</p>
+            <span class="pill">LLM</span>
+          </div>
+          <div class="project-card">
+            <h3><a href="https://claudechef.com">Claude Chef</a></h3>
+            <p>Open-source recipe collection with AI-powered cooking assistance. 29,000+ community recipes built with SchemaFlux.</p>
+            <span class="pill">SchemaFlux</span>
+          </div>
+        </div>
+      </section>
+
+      <section id="research">
+        <h2>Research</h2>
+        <p style="color: var(--color-text-muted); font-size: 0.9375rem; margin-bottom: 1rem;">MS CS (Machine Learning) at Georgia Tech. Researching agentic evaluations.</p>
+        <div class="research-links">
+          <a class="research-link" href="https://orcid.org/0009-0001-0714-3800">
+            ORCID 0009-0001-0714-3800
+          </a>
+          <a class="research-link" href="https://doi.org/10.5281/zenodo.18627369">
+            DOI 10.5281/zenodo.18627369
+          </a>
+        </div>
+      </section>
+
+      <section id="blog">
+        <h2>Blog</h2>
+        <ul class="blog-list">
+          <li><a href="https://greynewell.com/blog/everyone-is-benchmarking-mcp-servers-wrong/">Everyone Is Benchmarking MCP Servers Wrong</a></li>
+          <li><a href="https://greynewell.com/blog/why-i-built-mcpbr/">Why I Built mcpbr</a></li>
+        </ul>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-links">
+        <a href="{{.Site.RepoURL}}">GitHub</a>
+        <a href="https://orcid.org/0009-0001-0714-3800">ORCID</a>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>
