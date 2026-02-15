@@ -6,7 +6,6 @@ site:
   author: "Grey Newell"
   author_url: "https://greynewell.com"
   repo_url: "https://github.com/greynewell/greynewell"
-  cname: "greynewell.com"
 
 paths:
   data: "./data"
