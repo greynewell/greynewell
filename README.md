@@ -1,6 +1,6 @@
 # [Grey Newell](https://greynewell.com) ![GitHub followers](https://img.shields.io/github/followers/greynewell) [![GitHub User's stars](https://img.shields.io/github/stars/greynewell)](https://github.com/greynewell)
 
-Creator of [mcpbr](https://mcpbr.org), [schemaflux](https://schemaflux.dev), and [musegpt](https://musegpt.org). MS CS (ML) at Georgia Tech, researching agentic evaluations.
+Creator of [mcpbr](https://mcpbr.org), [schemaflux](https://schemaflux.dev), and [musegpt](https://musegpt.org). MS CS (ML) at Georgia Tech. Researching agentic evaluations.
 
 ## Projects
 [![SWE-Bench](https://img.shields.io/badge/SWE--Bench-Eval-059669?style=flat-square)](https://github.com/search?q=user%3Agreynewell+topic%3Aswe-bench+fork%3Atrue&type=repositories)
