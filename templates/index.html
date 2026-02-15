@@ -35,41 +35,43 @@
 
     .container { max-width: var(--max-width); margin: 0 auto; padding: 0 1.5rem; }
 
-    /* Header */
     .site-header {
       padding: 1.5rem 0;
       border-bottom: 1px solid var(--color-border);
     }
-    .site-header nav {
-      display: flex;
-      gap: 1.5rem;
-      align-items: center;
-    }
-    .site-header nav a {
-      font-size: 0.875rem;
-      font-weight: 500;
-      color: var(--color-text-muted);
-    }
+    .site-header nav { display: flex; gap: 1.5rem; align-items: center; }
+    .site-header nav a { font-size: 0.875rem; font-weight: 500; color: var(--color-text-muted); }
     .site-header nav a:hover { color: var(--color-primary); text-decoration: none; }
 
-    /* Hero */
-    .hero {
-      padding: 4rem 0 2rem;
-    }
+    .hero { padding: 3.5rem 0 1.5rem; }
     .hero h1 {
       font-family: 'DM Serif Display', serif;
       font-size: 2.5rem;
       font-weight: 400;
       line-height: 1.2;
-      margin-bottom: 1rem;
+      margin-bottom: 0.75rem;
     }
     .hero .tagline {
       font-size: 1.125rem;
       color: var(--color-text-muted);
       max-width: 540px;
     }
+    .hero .badges {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      margin-top: 1.25rem;
+    }
+    .badge {
+      display: inline-block;
+      font-size: 0.75rem;
+      font-weight: 600;
+      padding: 0.2rem 0.6rem;
+      border-radius: 9999px;
+      background: var(--color-primary-light);
+      color: var(--color-primary);
+    }
 
-    /* Section */
     section { padding: 2rem 0; }
     section h2 {
       font-family: 'DM Serif Display', serif;
@@ -80,42 +82,80 @@
       border-bottom: 1px solid var(--color-border);
     }
 
-    /* Project cards */
-    .project-grid {
+    /* Repo cards */
+    .repo-grid {
       display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      grid-template-columns: 1fr;
       gap: 1rem;
     }
-    .project-card {
+    .repo-card {
       background: var(--color-surface);
       border: 1px solid var(--color-border);
       border-radius: var(--radius);
       padding: 1.25rem;
       transition: border-color 0.15s;
     }
-    .project-card:hover { border-color: var(--color-primary); }
-    .project-card h3 {
+    .repo-card:hover { border-color: var(--color-primary); }
+    .repo-top {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      gap: 1rem;
+      margin-bottom: 0.5rem;
+    }
+    .repo-card h3 {
       font-family: 'Inter', sans-serif;
-      font-size: 1rem;
+      font-size: 1.0625rem;
       font-weight: 600;
-      margin-bottom: 0.375rem;
     }
-    .project-card h3 a { color: var(--color-text); }
-    .project-card h3 a:hover { color: var(--color-primary); text-decoration: none; }
-    .project-card p {
-      font-size: 0.875rem;
-      color: var(--color-text-muted);
-      line-height: 1.5;
-    }
-    .project-card .pill {
-      display: inline-block;
+    .repo-card h3 a { color: var(--color-text); }
+    .repo-card h3 a:hover { color: var(--color-primary); text-decoration: none; }
+    .repo-lang {
       font-size: 0.75rem;
       font-weight: 500;
       padding: 0.15rem 0.5rem;
       border-radius: 9999px;
+      background: #f3f4f6;
+      color: var(--color-text-muted);
+      white-space: nowrap;
+    }
+    .repo-desc {
+      font-size: 0.875rem;
+      color: var(--color-text-muted);
+      line-height: 1.5;
+      margin-bottom: 0.75rem;
+    }
+    .repo-meta {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 0.75rem;
+      font-size: 0.8125rem;
+      color: var(--color-text-muted);
+    }
+    .repo-stat {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.25rem;
+    }
+    .repo-stat svg { width: 14px; height: 14px; fill: currentColor; }
+    .repo-website a {
+      font-weight: 600;
+      font-size: 0.8125rem;
+    }
+    .repo-topics {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.375rem;
+      margin-top: 0.75rem;
+    }
+    .topic {
+      font-size: 0.6875rem;
+      font-weight: 500;
+      padding: 0.125rem 0.45rem;
+      border-radius: 9999px;
       background: var(--color-primary-light);
       color: var(--color-primary);
-      margin-top: 0.75rem;
     }
 
     /* Research */
@@ -146,12 +186,8 @@
       border-bottom: 1px solid var(--color-border);
     }
     .blog-list li:last-child { border-bottom: none; }
-    .blog-list a {
-      font-weight: 500;
-      font-size: 0.9375rem;
-    }
+    .blog-list a { font-weight: 500; font-size: 0.9375rem; }
 
-    /* Footer */
     .site-footer {
       padding: 2rem 0;
       margin-top: 2rem;
@@ -162,17 +198,12 @@
       display: flex;
       justify-content: center;
       gap: 1.5rem;
-      margin-bottom: 1rem;
     }
-    .footer-links a {
-      font-size: 0.8125rem;
-      color: var(--color-text-muted);
-    }
+    .footer-links a { font-size: 0.8125rem; color: var(--color-text-muted); }
     .footer-links a:hover { color: var(--color-primary); }
 
     @media (max-width: 640px) {
       .hero h1 { font-size: 1.75rem; }
-      .project-grid { grid-template-columns: 1fr; }
     }
   </style>
 </head>
@@ -183,7 +214,7 @@
         <a href="#projects">Projects</a>
         <a href="#research">Research</a>
         <a href="#blog">Blog</a>
-        <a href="{{.Site.RepoURL}}">GitHub</a>
+        <a href="https://github.com/greynewell">GitHub</a>
       </nav>
     </header>
 
@@ -191,31 +222,132 @@
       <div class="hero">
         <h1>{{.Site.Name}}</h1>
         <p class="tagline">{{.Site.Description}}</p>
+        <div class="badges">
+          <span class="badge">SWE-Bench</span>
+          <span class="badge">Claude Code</span>
+          <span class="badge">MCP</span>
+          <span class="badge">LLM</span>
+          <span class="badge">Compilers</span>
+        </div>
       </div>
 
       <section id="projects">
         <h2>Projects</h2>
-        <div class="project-grid">
-          <div class="project-card">
-            <h3><a href="https://mcpbr.org">mcpbr</a></h3>
-            <p>Benchmarking runtime for MCP servers. Reproducible evals using SWE-bench tasks with configurable tool providers.</p>
-            <span class="pill">MCP</span>
+        <div class="repo-grid">
+
+          <div class="repo-card">
+            <div class="repo-top">
+              <h3><a href="https://github.com/greynewell/mcpbr">mcpbr</a></h3>
+              <span class="repo-lang">Python</span>
+            </div>
+            <p class="repo-desc">Evaluate MCP servers with Model Context Protocol Benchmark Runner</p>
+            <div class="repo-meta">
+              <span class="repo-stat"><svg viewBox="0 0 16 16"><path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.75.75 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25z"/></svg> 20</span>
+              <span class="repo-stat"><svg viewBox="0 0 16 16"><path d="M5 5.372v.878c0 .414.336.75.75.75h4.5a.75.75 0 0 0 .75-.75v-.878a2.25 2.25 0 1 1 1.5 0v.878a2.25 2.25 0 0 1-2.25 2.25h-1.5v2.128a2.251 2.251 0 1 1-1.5 0V8.5h-1.5A2.25 2.25 0 0 1 3.5 6.25v-.878a2.25 2.25 0 1 1 1.5 0zM5 3.25a.75.75 0 1 0-1.5 0 .75.75 0 0 0 1.5 0zm6.75.75a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5zM8 12.75a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5z"/></svg> 9</span>
+              <span class="repo-website"><a href="https://mcpbr.org">mcpbr.org</a></span>
+            </div>
+            <div class="repo-topics">
+              <span class="topic">mcp</span>
+              <span class="topic">benchmarking</span>
+              <span class="topic">swe-bench</span>
+              <span class="topic">claude-code</span>
+              <span class="topic">llm-agents</span>
+            </div>
           </div>
-          <div class="project-card">
-            <h3><a href="https://schemaflux.dev">SchemaFlux</a></h3>
-            <p>Data-driven static site compiler. Turns YAML config + markdown entities into fast, SEO-ready HTML sites.</p>
-            <span class="pill">Compilers</span>
+
+          <div class="repo-card">
+            <div class="repo-top">
+              <h3><a href="https://github.com/greynewell/musegpt">musegpt</a></h3>
+              <span class="repo-lang">C++</span>
+            </div>
+            <p class="repo-desc">A VST3 plugin that connects your DAW to any LLM inference backend.</p>
+            <div class="repo-meta">
+              <span class="repo-stat"><svg viewBox="0 0 16 16"><path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.75.75 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25z"/></svg> 89</span>
+              <span class="repo-stat"><svg viewBox="0 0 16 16"><path d="M5 5.372v.878c0 .414.336.75.75.75h4.5a.75.75 0 0 0 .75-.75v-.878a2.25 2.25 0 1 1 1.5 0v.878a2.25 2.25 0 0 1-2.25 2.25h-1.5v2.128a2.251 2.251 0 1 1-1.5 0V8.5h-1.5A2.25 2.25 0 0 1 3.5 6.25v-.878a2.25 2.25 0 1 1 1.5 0zM5 3.25a.75.75 0 1 0-1.5 0 .75.75 0 0 0 1.5 0zm6.75.75a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5zM8 12.75a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5z"/></svg> 6</span>
+              <span class="repo-website"><a href="https://musegpt.org">musegpt.org</a></span>
+            </div>
+            <div class="repo-topics">
+              <span class="topic">vst3</span>
+              <span class="topic">ai-music</span>
+              <span class="topic">llm</span>
+              <span class="topic">daw</span>
+              <span class="topic">cpp</span>
+            </div>
           </div>
-          <div class="project-card">
-            <h3><a href="https://musegpt.org">MuseGPT</a></h3>
-            <p>AI-powered music tools for composition, analysis, and creative exploration.</p>
-            <span class="pill">LLM</span>
+
+          <div class="repo-card">
+            <div class="repo-top">
+              <h3><a href="https://github.com/greynewell/schemaflux">schemaflux</a></h3>
+              <span class="repo-lang">Go</span>
+            </div>
+            <p class="repo-desc">A compiler for structured data</p>
+            <div class="repo-meta">
+              <span class="repo-stat"><svg viewBox="0 0 16 16"><path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.75.75 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25z"/></svg> 10</span>
+              <span class="repo-stat"><svg viewBox="0 0 16 16"><path d="M5 5.372v.878c0 .414.336.75.75.75h4.5a.75.75 0 0 0 .75-.75v-.878a2.25 2.25 0 1 1 1.5 0v.878a2.25 2.25 0 0 1-2.25 2.25h-1.5v2.128a2.251 2.251 0 1 1-1.5 0V8.5h-1.5A2.25 2.25 0 0 1 3.5 6.25v-.878a2.25 2.25 0 1 1 1.5 0zM5 3.25a.75.75 0 1 0-1.5 0 .75.75 0 0 0 1.5 0zm6.75.75a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5zM8 12.75a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5z"/></svg> 1</span>
+              <span class="repo-website"><a href="https://schemaflux.dev">schemaflux.dev</a></span>
+            </div>
+            <div class="repo-topics">
+              <span class="topic">compiler</span>
+              <span class="topic">static-site-generator</span>
+              <span class="topic">structured-data</span>
+              <span class="topic">golang</span>
+              <span class="topic">seo</span>
+            </div>
           </div>
-          <div class="project-card">
-            <h3><a href="https://claudechef.com">Claude Chef</a></h3>
-            <p>Open-source recipe collection with AI-powered cooking assistance. 29,000+ community recipes built with SchemaFlux.</p>
-            <span class="pill">SchemaFlux</span>
+
+          <div class="repo-card">
+            <div class="repo-top">
+              <h3><a href="https://github.com/greynewell/claude-chef">claude-chef</a></h3>
+              <span class="repo-lang">TypeScript</span>
+            </div>
+            <p class="repo-desc">Claude Code plugin designed to make Claude a culinary expert!</p>
+            <div class="repo-meta">
+              <span class="repo-stat"><svg viewBox="0 0 16 16"><path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.75.75 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25z"/></svg> 5</span>
+              <span class="repo-website"><a href="https://claudechef.com">claudechef.com</a></span>
+            </div>
+            <div class="repo-topics">
+              <span class="topic">claude-code</span>
+              <span class="topic">recipes</span>
+              <span class="topic">static-site-generator</span>
+              <span class="topic">pwa</span>
+            </div>
           </div>
+
+          <div class="repo-card">
+            <div class="repo-top">
+              <h3><a href="https://github.com/greynewell/mcp-serialization-repro">mcp-serialization-repro</a></h3>
+              <span class="repo-lang">Python</span>
+            </div>
+            <p class="repo-desc">Do MCP tools serialize in Claude Code? Empirical study: readOnlyHint controls parallelism, IPC overhead is ~5ms/call.</p>
+            <div class="repo-meta">
+              <span class="repo-stat"><svg viewBox="0 0 16 16"><path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.75.75 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25z"/></svg> 3</span>
+              <span class="repo-website"><a href="https://greynewell.github.io/mcp-serialization-repro/">site</a></span>
+            </div>
+            <div class="repo-topics">
+              <span class="topic">mcp</span>
+              <span class="topic">claude-code</span>
+              <span class="topic">tool-parallelism</span>
+              <span class="topic">swe-bench</span>
+            </div>
+          </div>
+
+          <div class="repo-card">
+            <div class="repo-top">
+              <h3><a href="https://github.com/greynewell/agentic-template">agentic-template</a></h3>
+              <span class="repo-lang">HTML</span>
+            </div>
+            <p class="repo-desc">Starter template for AI-first development. Scaffolds AGENTS.md, CLAUDE.md, CHANGELOG, and README so coding agents have the right context from day one.</p>
+            <div class="repo-meta">
+              <span class="repo-website"><a href="https://greynewell.github.io/agentic-template/">site</a></span>
+            </div>
+            <div class="repo-topics">
+              <span class="topic">claude-code</span>
+              <span class="topic">agentic-coding</span>
+              <span class="topic">template-repository</span>
+              <span class="topic">context-engineering</span>
+            </div>
+          </div>
+
         </div>
       </section>
 
@@ -223,12 +355,8 @@
         <h2>Research</h2>
         <p style="color: var(--color-text-muted); font-size: 0.9375rem; margin-bottom: 1rem;">MS CS (Machine Learning) at Georgia Tech. Researching agentic evaluations.</p>
         <div class="research-links">
-          <a class="research-link" href="https://orcid.org/0009-0001-0714-3800">
-            ORCID 0009-0001-0714-3800
-          </a>
-          <a class="research-link" href="https://doi.org/10.5281/zenodo.18627369">
-            DOI 10.5281/zenodo.18627369
-          </a>
+          <a class="research-link" href="https://orcid.org/0009-0001-0714-3800">ORCID 0009-0001-0714-3800</a>
+          <a class="research-link" href="https://doi.org/10.5281/zenodo.18627369">DOI 10.5281/zenodo.18627369</a>
         </div>
       </section>
 
@@ -243,7 +371,7 @@
 
     <footer class="site-footer">
       <div class="footer-links">
-        <a href="{{.Site.RepoURL}}">GitHub</a>
+        <a href="https://github.com/greynewell">GitHub</a>
         <a href="https://orcid.org/0009-0001-0714-3800">ORCID</a>
       </div>
     </footer>

@@ -1,6 +1,0 @@
-[build]
-  command = "go install github.com/greynewell/schemaflux/cmd/schemaflux@latest && schemaflux build"
-  publish = "docs"
-
-[build.environment]
-  GO_VERSION = "1.25"

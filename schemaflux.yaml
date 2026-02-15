@@ -1,10 +1,10 @@
 site:
   name: "Grey Newell"
-  base_url: "https://greynewell.com"
+  base_url: "https://greynewell.github.io/greynewell"
   description: "Creator of mcpbr, schemaflux, and musegpt. MS CS (ML) at Georgia Tech, researching agentic evaluations."
   language: "en"
   author: "Grey Newell"
-  author_url: "https://greynewell.com"
+  author_url: "https://greynewell.github.io/greynewell"
   repo_url: "https://github.com/greynewell/greynewell"
 
 paths:
