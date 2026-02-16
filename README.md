@@ -8,13 +8,15 @@ MS CS (Machine Learning) at Georgia Tech. Ex-AWS (SDE + Solutions Architect, 12x
 
 An end-to-end evaluation and inference platform for AI systems, written in Go with zero external dependencies at the core.
 
-| Layer | Repo | What it does |
-|-------|------|-------------|
-| **M** — MatchSpec | [`matchspec`](https://github.com/greynewell/matchspec) | Define benchmark suites, run evals against any inference backend, report results |
-| **I** — InferMux | [`infermux`](https://github.com/greynewell/infermux) | LLM inference router — provider abstraction, model routing, cost observability |
-| **S** — SchemaFlux | [`schemaflux`](https://github.com/greynewell/schemaflux) | Structured data compiler with pass pipeline and pluggable backends |
-| **T** — TokenTrace | [`tokentrace`](https://github.com/greynewell/tokentrace) | Real-time inference observability — span collection, latency percentiles, alerts |
-| Core | [`mist-go`](https://github.com/greynewell/mist-go) | Shared library — protocol, transport, metrics, circuit breaking, checkpointing |
+**M**atchSpec · **I**nferMux · **S**chemaFlux · **T**okenTrace
+
+| Repo | What it does |
+|------|-------------|
+| [`matchspec`](https://github.com/greynewell/matchspec) | Define benchmark suites, run evals against any inference backend, report results |
+| [`infermux`](https://github.com/greynewell/infermux) | LLM inference router — provider abstraction, model routing, cost observability |
+| [`schemaflux`](https://github.com/greynewell/schemaflux) | Structured data compiler with pass pipeline and pluggable backends |
+| [`tokentrace`](https://github.com/greynewell/tokentrace) | Real-time inference observability — span collection, latency percentiles, alerts |
+| [`mist-go`](https://github.com/greynewell/mist-go) | Shared library — protocol, transport, metrics, circuit breaking, checkpointing |
 
 Every component follows [eval-driven development](https://evaldriven.org): deterministic, automated evaluation as the foundation of AI system reliability.
 
