@@ -1,19 +1,24 @@
-# [Grey Newell](https://greynewell.com) ![GitHub followers](https://img.shields.io/github/followers/greynewell) [![GitHub User's stars](https://img.shields.io/github/stars/greynewell)](https://github.com/greynewell)
+# Grey Newell
 
-Creator of [mcpbr](https://mcpbr.org), [schemaflux](https://schemaflux.dev), and [musegpt](https://musegpt.org). MS CS (ML) at Georgia Tech. Researching agentic evaluations.
+Building evaluation infrastructure for AI systems. Creator of the **MIST stack**.
 
-## Projects
-[![SWE-Bench](https://img.shields.io/badge/SWE--Bench-Eval-059669?style=flat-square)](https://github.com/search?q=user%3Agreynewell+topic%3Aswe-bench+fork%3Atrue&type=repositories)
-[![Claude Code](https://img.shields.io/badge/Claude_Code-Dev-D97706?style=flat-square&logo=anthropic&logoColor=white)](https://github.com/search?q=user%3Agreynewell+topic%3Aclaude-code+fork%3Atrue&type=repositories)
-[![MCP](https://badge.mcpx.dev?type=dev 'MCP Dev')](https://github.com/search?q=user%3Agreynewell+topic%3Amcp+fork%3Atrue&type=repositories)
-[![LLM](https://img.shields.io/badge/LLM-Dev-7C3AED?style=flat-square)](https://github.com/search?q=user%3Agreynewell+topic%3Allm+fork%3Atrue&type=repositories)
-[![Compilers](https://img.shields.io/badge/Compilers-Arch-1e293b?style=flat-square&logo=go&logoColor=white)](https://github.com/search?q=user%3Agreynewell+topic%3Acompiler+fork%3Atrue&type=repositories)
+MS CS (Machine Learning) at Georgia Tech. Ex-AWS (SDE + Solutions Architect, 12x certified).
+
+## MIST Stack
+
+An end-to-end evaluation and inference platform for AI systems, written in Go with zero external dependencies at the core.
+
+| Layer | Repo | What it does |
+|-------|------|-------------|
+| **M** — MatchSpec | [`matchspec`](https://github.com/greynewell/matchspec) | Define benchmark suites, run evals against any inference backend, report results |
+| **I** — InferMux | [`infermux`](https://github.com/greynewell/infermux) | LLM inference router — provider abstraction, model routing, cost observability |
+| **S** — SchemaFlux | [`schemaflux`](https://github.com/greynewell/schemaflux) | Structured data compiler with pass pipeline and pluggable backends |
+| **T** — TokenTrace | [`tokentrace`](https://github.com/greynewell/tokentrace) | Real-time inference observability — span collection, latency percentiles, alerts |
+| Core | [`mist-go`](https://github.com/greynewell/mist-go) | Shared library — protocol, transport, metrics, circuit breaking, checkpointing |
+
+Every component follows [eval-driven development](https://evaldriven.org): deterministic, automated evaluation as the foundation of AI system reliability.
 
 ## Research
+
 [![ORCID](https://img.shields.io/badge/ORCID-0009--0001--0714--3800-A6CE39?style=flat-square&logo=orcid&logoColor=white)](https://orcid.org/0009-0001-0714-3800)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18627369.svg)](https://doi.org/10.5281/zenodo.18627369)
-
-## Blog
-
-- [Everyone Is Benchmarking MCP Servers Wrong](https://greynewell.com/blog/everyone-is-benchmarking-mcp-servers-wrong/)
-- [Why I Built mcpbr](https://greynewell.com/blog/why-i-built-mcpbr/)
