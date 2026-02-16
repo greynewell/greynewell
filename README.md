@@ -1,24 +1,22 @@
 # Grey Newell
 
-Building evaluation infrastructure for AI systems. Creator of the **MIST stack**.
+I build eval infrastructure. MS CS (ML) at Georgia Tech. Ex-AWS, 12x certified.
 
-MS CS (Machine Learning) at Georgia Tech. Ex-AWS (SDE + Solutions Architect, 12x certified).
-
-## MIST Stack
-
-An end-to-end evaluation and inference platform for AI systems, written in Go with zero external dependencies at the core.
+## MIST stack
 
 **M**atchSpec · **I**nferMux · **S**chemaFlux · **T**okenTrace
 
-| Repo | What it does |
-|------|-------------|
-| [`matchspec`](https://github.com/greynewell/matchspec) | Define benchmark suites, run evals against any inference backend, report results |
-| [`infermux`](https://github.com/greynewell/infermux) | LLM inference router — provider abstraction, model routing, cost observability |
-| [`schemaflux`](https://github.com/greynewell/schemaflux) | Structured data compiler with pass pipeline and pluggable backends |
-| [`tokentrace`](https://github.com/greynewell/tokentrace) | Real-time inference observability — span collection, latency percentiles, alerts |
-| [`mist-go`](https://github.com/greynewell/mist-go) | Shared library — protocol, transport, metrics, circuit breaking, checkpointing |
+Go. Zero external deps. All six repos are pinned below.
 
-Every component follows [eval-driven development](https://evaldriven.org): deterministic, automated evaluation as the foundation of AI system reliability.
+| Repo | Purpose |
+|------|---------|
+| [`matchspec`](https://github.com/greynewell/matchspec) | Benchmark suites. Runs evals against any backend, produces structured reports. |
+| [`infermux`](https://github.com/greynewell/infermux) | Inference routing. Abstracts providers, tracks tokens and cost per request. |
+| [`schemaflux`](https://github.com/greynewell/schemaflux) | Data compiler. Pass pipeline, pluggable backends, no runtime allocs in hot path. |
+| [`tokentrace`](https://github.com/greynewell/tokentrace) | Observability. Collects spans, computes latency percentiles, fires threshold alerts. |
+| [`mist-go`](https://github.com/greynewell/mist-go) | Shared core. Protocol, transport, metrics, circuit breakers, checkpointing. |
+
+Methodology: [eval-driven development](https://evaldriven.org).
 
 ## Research
 
