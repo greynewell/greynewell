@@ -1,7 +1,7 @@
 site:
   name: "Grey Newell"
   base_url: "https://greynewell.github.io/greynewell"
-  description: "Creator of mcpbr, schemaflux, and musegpt. MS CS (ML) at Georgia Tech, researching agentic evaluations."
+  description: "ML infrastructure engineer. Founding Engineer @supermodeltools, building code analysis tooling for AI agents. Creator of the MIST stack. MS CS (ML) @ Georgia Tech. Ex-AWS."
   language: "en"
   author: "Grey Newell"
   author_url: "https://greynewell.github.io/greynewell"

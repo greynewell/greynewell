@@ -1,6 +1,6 @@
 # Grey Newell
 
-I build eval infrastructure. MS CS (ML) at Georgia Tech. Ex-AWS, 12x certified.
+ML infrastructure engineer. Founding Engineer [@supermodeltools](https://github.com/supermodeltools), building code analysis tooling for AI agents. Creator of the [MIST stack](https://github.com/greynewell/mist-go). MS CS (ML) @ Georgia Tech. Ex-AWS.
 
 ## MIST stack
 
@@ -22,3 +22,10 @@ Methodology: [eval-driven development](https://evaldriven.org).
 
 [![ORCID](https://img.shields.io/badge/ORCID-0009--0001--0714--3800-A6CE39?style=flat-square&logo=orcid&logoColor=white)](https://orcid.org/0009-0001-0714-3800)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18627369.svg)](https://doi.org/10.5281/zenodo.18627369)
+
+**[mcpbr: Benchmarking Model Context Protocol Servers on Software Engineering Tasks](https://doi.org/10.5281/zenodo.18627369)** — 500-task SWE-bench Verified evaluation showing MCP tools trade resolution rate for efficiency (42% fewer tool calls, 15% lower cost). Georgia Tech, 2026.
+
+## Blog
+
+- [Everyone Is Benchmarking MCP Servers Wrong](https://greynewell.com/blog/everyone-is-benchmarking-mcp-servers-wrong/)
+- [Why I Built mcpbr](https://greynewell.com/blog/why-i-built-mcpbr/)
