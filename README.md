@@ -24,8 +24,3 @@ Methodology: [eval-driven development](https://evaldriven.org).
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18627369.svg)](https://doi.org/10.5281/zenodo.18627369)
 
 **[mcpbr: Benchmarking Model Context Protocol Servers on Software Engineering Tasks](https://doi.org/10.5281/zenodo.18627369)** — 500-task SWE-bench Verified evaluation showing MCP tools trade resolution rate for efficiency (42% fewer tool calls, 15% lower cost). Georgia Tech, 2026.
-
-## Blog
-
-- [Everyone Is Benchmarking MCP Servers Wrong](https://greynewell.com/blog/everyone-is-benchmarking-mcp-servers-wrong/)
-- [Why I Built mcpbr](https://greynewell.com/blog/why-i-built-mcpbr/)
