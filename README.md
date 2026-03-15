@@ -24,3 +24,11 @@ Methodology: [eval-driven development](https://evaldriven.org).
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18627369.svg)](https://doi.org/10.5281/zenodo.18627369)
 
 **[mcpbr: Benchmarking Model Context Protocol Servers on Software Engineering Tasks](https://doi.org/10.5281/zenodo.18627369)** — 500-task SWE-bench Verified evaluation showing MCP tools trade resolution rate for efficiency (42% fewer tool calls, 15% lower cost). Georgia Tech, 2026.
+
+## Blog
+
+- [SWE-bench Verified Is Broken: 5 Things I Found in the Source Code](https://greynewell.com/blog/swe-bench-verified-broken-5-things-source-code/)
+- [SWE-bench Tests Run 6x Faster on ARM64 with Native Containers](https://greynewell.com/blog/swe-bench-arm64-native-containers-6x-faster/)
+- [Why Code Graphs Matter for AI Agents](https://greynewell.com/blog/why-code-graphs-matter/)
+- [Building Uncompact: Lessons from Production](https://greynewell.com/blog/building-uncompact-lessons-from-production/)
+- [The Architecture of Supermodel's Code Graph API](https://greynewell.com/blog/supermodel-code-graph-api-architecture/)
